@@ -52,6 +52,18 @@ for x in range(2, 4):
 for x in range(0, 101, 5):
     print(x)
 
+names = ["Kate", "James", "Aggy"]
+actions = ["hoarder", "lowlife", "simpleton"]
+#this means the loops going to do something to each name in the names list
+for name in names:
+    for action in actions:
+        print(name + " " + action)
+#this prints out each name and each action Kate Hoarder, Kate lowlife, Kate simpleton, James Lowlife etc
+# if you swapped the action in actions for the name in names it would be Kate hoarder, James hoarder
+
+
+
+
 
 
 
